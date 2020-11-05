@@ -1,0 +1,12 @@
+@import "../assets/styles/color.scss";
+.nav-item {
+  .active-link {
+    color: $primaryColorBlue;
+  }
+  a {
+    color: $primaryColorGreen;
+
+    font-family: "ff2";
+    font-size: 20px;
+  }
+}
