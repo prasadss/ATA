@@ -10,3 +10,18 @@
     font-size: 20px;
   }
 }
+.navbar-collapse .navbar-toggler {
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
+  float: right;
+}
+.seperater {
+  background: rgb(139, 197, 63);
+  background-image: linear-gradient(
+    to right,
+    $primaryColorGreen,
+    $primaryColorBlue
+  );
+  padding-top: 4px;
+}

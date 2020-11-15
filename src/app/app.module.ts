@@ -7,20 +7,17 @@ import { PlansComponent } from './components/plans/plans.component';
 import { HomeComponent } from './components/home/home.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
-
+import { CountUpModule } from 'ngx-countup';
 @NgModule({
   declarations: [
     AppComponent,
     PlansComponent,
     HomeComponent,
     CoursesComponent,
-    AboutUsComponent
+    AboutUsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, CountUpModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
