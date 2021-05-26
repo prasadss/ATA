@@ -62,7 +62,7 @@
             Membership
           </a>
         </li>
-        <!-- <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a
             class="nav-link"
             id="navbarDocumentation"
@@ -70,12 +70,23 @@
             href="#"
             aria-haspopup="true"
             aria-expanded="false"
-            [routerLink]="['/courses']"
             routerLinkActive="active-link"
           >
-            Courses
+            Academy
           </a>
-        </li> -->
+          <div class="dropdown-content">
+            <a
+              class="nav-link"
+              href="#"
+              aria-haspopup="true"
+              aria-expanded="false"
+              [routerLink]="['/advance-training']"
+              routerLinkActive="active-link"
+            >
+              Advance Program
+            </a>
+          </div>
+        </li>
         <!-- <li class="nav-item dropdown">
           <a
             class="nav-link"
