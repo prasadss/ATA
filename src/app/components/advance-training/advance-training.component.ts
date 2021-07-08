@@ -9,11 +9,11 @@ import { PaymentService } from 'src/app/services/payment.service';
 export class AdvanceTrainingComponent implements OnInit {
 
   constructor(private paymentService: PaymentService) { }
-  price = 11999
+  price = 20999
   ngOnInit(): void {
   }
   payWithRazor(){
-    this.paymentService.pay(11999);
+    this.paymentService.pay(20999);
   } 
 
 }
